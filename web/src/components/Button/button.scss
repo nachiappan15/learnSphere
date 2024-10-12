@@ -1,0 +1,66 @@
+$black-color:#161515;
+
+.btn{
+    font-family:  "DM Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.copy-button{
+    background-color: #F3A712;
+    color: #010400;
+    border: 2px solid #F3A712;
+    &:hover{
+        background-color: $black-color;
+        color: #F3A712;
+    }
+}
+.add-button{
+    background-color: #63326E;
+    color: #fff;
+    border: 2px solid #63326E;
+    &:hover{
+        background-color: $black-color;
+        color: #63326E;
+    }
+}
+.delete-button{
+    background-color: #C1121F;
+    color: #fff;
+    border: 2px solid #C1121F;
+    &:hover{
+        background-color: $black-color;
+        color: #C1121F;
+    }
+}
+.create-button{
+    background-color: #386641;
+    color: #fff;
+    border: 2px solid #386641;
+    &:hover{
+        background-color: $black-color;
+        color: #386641;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .btn{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .btn{
+        font-size: 10px;
+    }
+}
