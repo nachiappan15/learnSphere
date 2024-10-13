@@ -48,4 +48,4 @@ Whether you’re a teacher looking to create immersive lessons or a student eage
 
 	Watch the presentation demo of LearnSphere here:
 
-- [LearnSphere YouTube Demo](https://youtube.com/demo-link)
+- [LearnSphere YouTube Demo] ( https://youtube.com/demo-link](https://www.youtube.com/watch?v=GvQ-2vOOq8M&t=41s )
