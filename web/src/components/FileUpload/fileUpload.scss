@@ -1,0 +1,66 @@
+$black-color:#161515;
+
+input[type="file"]{
+    display: none;
+}
+.file_upload_label{
+    display: block;
+    height: 120px;
+    width: 120px;
+    color: #F5BE44;
+    background-color: $black-color;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    .upload_icon_pending{
+        font-size: 64px;
+    }
+    .upload_icon_success{
+        font-size: 54px;
+    }
+    .label_text{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0 2px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .file_upload_label{
+        height: 80px;
+        width: 80px;
+        border-radius: 10px;
+        .label_text{
+            font-size: 10px;
+            font-weight: 500;
+        }
+        .upload_icon_pending{
+            font-size: 52px;
+        }
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .file_upload_label{
+        height: 60px;
+        width: 60px;
+        border-radius: 8px;
+        .label_text{
+            font-size: 8px;
+            font-weight: 500;
+        }
+        .upload_icon_pending{
+            font-size: 48px;
+        }
+    }
+}

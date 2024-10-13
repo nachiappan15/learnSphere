@@ -1,0 +1,44 @@
+$black-color:#161515;
+.fieldSet{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    .label{
+        font-size: 24px;
+    }
+    .author_id{
+        width: 100%;
+        padding: 15px 20px;
+        border: 0;
+        border-radius: 10px;
+        outline: none;
+        font-size: 18px;
+        background-color: $black-color;
+        color: #F5BE44;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .fieldSet{
+        .label{
+            font-size: 20px;
+        }
+        .author_id{
+            padding: 10px 12px;
+            font-size: 14px;
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .fieldSet{
+        .label{
+            font-size: 16px;
+        }
+        .author_id{
+            padding: 8px 6px;
+            font-size: 12px;
+        }
+    }
+}
