@@ -1,0 +1,18 @@
+Used MySQL version 5.7.30 (not necessary, but just in case)
+create database AR;
+create table files (ID varchar 50, MarkerFileName varchar(500), MarkerFileKey varchar(500), ModelFileName varchar(500), ModelFileKey varchar(500));
+
+Update the DB user details in WEB-INF/conf/credentials.properties
+All required jars were present in WEB-INF/lib/
+
+
+{"name":"John Doe", "id":123}
+
+{"uniqueRoomId":"1234","markerFileName":["gay.uszd","gay.zip"],"modelFileName":["gay.png"]}
+{
+    "roomUniqueId": "1234",
+    "fileNames": {
+        "markerfile1.txt": "model1.txt",
+        "markerfile2.txt": "model2.txt"
+    }
+}
