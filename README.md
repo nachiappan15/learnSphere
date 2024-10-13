@@ -8,7 +8,7 @@ LearnSphere is an innovative educational platform designed to make learning more
 
 Whether you’re a teacher looking to create immersive lessons or a student eager to explore new learning methods, LearnSphere provides the tools and environment to bring learning into the 21st century.
 
-Key Features ✨
+## Key Features ✨
 
 	•	AR-Powered Learning: Bring 3D models to life using Augmented Reality. Students can interact with these models in real-time, rotating and annotating them for better understanding.
 	•	Collaborative Learning Spaces: With unique room IDs, multiple students can join the same room, view the same 3D models, and engage in discussions or collaborative problem-solving.
@@ -16,15 +16,15 @@ Key Features ✨
 	•	Intuitive Room Setup: Teachers or admins can easily set up rooms with custom 3D models and reference images, providing an easy-to-navigate interface for students.
 	•	Annotation Feature: Tap and hold on any 3D model to add annotations. This enables real-time feedback and collaboration on shared learning content.
 
-How It Works 🔧
+## How It Works 🔧
 
-Web App (Admin/Teacher Portal)
+### Web App (Admin/Teacher Portal)
 
-	•	Admins, authors, or teachers can create a new room with a unique room ID and upload the necessary assets (3D models and reference images).
+		Admins, authors, or teachers can create a new room with a unique room ID and upload the necessary assets (3D models and reference images).
 	•	The assets are managed on the web portal and are stored on a file server with the corresponding room ID.
 	•	Admins can edit or delete the assets as required, and all files are ready for student use upon submission.
 
-Mobile App (iOS)
+### Mobile App (iOS)
 
 	1.	Room Entry: Students enter the unique room ID provided by their teacher to access the associated learning materials.
 	2.	Download of Assets: The app automatically downloads the required assets (3D model, reference image) when a valid room ID is entered. These assets are cleared once the student exits the room.
@@ -35,7 +35,7 @@ Mobile App (iOS)
 	4.	Engaging 3D Visualization: Once a reference image is scanned, the associated 3D model is loaded, allowing students to view, rotate, and interact with it.
 	•	Annotation Feature: Students can tap and hold on specific areas of the 3D model to add annotations or comments, fostering collaborative learning.
 
-Technical Implementation ⚙️
+### Technical Implementation ⚙️
 
 	•	iOS App: Built using Swift and UIKit, with ARKit integration for AR functionality.
 	•	Web App (Frontend): Built with React for a seamless and dynamic user experience.
@@ -43,3 +43,9 @@ Technical Implementation ⚙️
 	•	Database: MySQL is used for storing user data, room details, and asset metadata.
 	•	Firebase Firestore: Real-time chat feature is powered by Firebase Firestore, enabling instant messaging between users in the same room.
 	•	NGROk: Used for API web hosting during the development phase.
+ 
+ ### YouTube Demo 🎥
+
+	Watch the presentation demo of LearnSphere here:
+
+- [LearnSphere YouTube Demo](https://youtube.com/demo-link)
