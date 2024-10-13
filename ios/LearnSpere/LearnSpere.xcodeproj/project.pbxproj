@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E9C12B382CBBB68F009E3057 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E9C12B372CBBB68F009E3057 /* FirebaseDatabase */; };
+		E9C12B3A2CBBB69C009E3057 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E9C12B392CBBB69C009E3057 /* FirebaseAuth */; };
+		E9C12B3C2CBBB69C009E3057 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E9C12B3B2CBBB69C009E3057 /* FirebaseCore */; };
+		E9C12B3E2CBBB69C009E3057 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E9C12B3D2CBBB69C009E3057 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E9C12AD62CBBABC6009E3057 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,6 +44,40 @@
 			);
 			target = E9C12ABE2CBBABC3009E3057 /* LearnSpere */;
 		};
+		E9C12B332CBBB139009E3057 /* Exceptions for "LearnSpere" folder in "LearnSpereTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Cells/MessageCells.swift,
+				Entities.swift,
+				Firebase.swift,
+				"GoogleService-Info.plist",
+				Protocols.swift,
+				ViewControllers/3dModelPreviewViewController.swift,
+				ViewControllers/ARTrackingViewController.swift,
+				ViewControllers/ChatViewController.swift,
+				ViewControllers/HomeScreenViewController.swift,
+				ViewControllers/RoomViewController.swift,
+			);
+			target = E9C12AD42CBBABC6009E3057 /* LearnSpereTests */;
+		};
+		E9C12B342CBBB139009E3057 /* Exceptions for "LearnSpere" folder in "LearnSpereUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Cells/MessageCells.swift,
+				Entities.swift,
+				Firebase.swift,
+				"GoogleService-Info.plist",
+				Protocols.swift,
+				ViewControllers/3dModelPreviewViewController.swift,
+				ViewControllers/ARTrackingViewController.swift,
+				ViewControllers/ChatViewController.swift,
+				ViewControllers/HomeScreenViewController.swift,
+				ViewControllers/RoomViewController.swift,
+			);
+			target = E9C12ADE2CBBABC6009E3057 /* LearnSpereUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +85,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				E9C12AE72CBBABC6009E3057 /* Exceptions for "LearnSpere" folder in "LearnSpere" target */,
+				E9C12B332CBBB139009E3057 /* Exceptions for "LearnSpere" folder in "LearnSpereTests" target */,
+				E9C12B342CBBB139009E3057 /* Exceptions for "LearnSpere" folder in "LearnSpereUITests" target */,
 			);
 			path = LearnSpere;
 			sourceTree = "<group>";
@@ -65,6 +108,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C12B382CBBB68F009E3057 /* FirebaseDatabase in Frameworks */,
+				E9C12B3E2CBBB69C009E3057 /* FirebaseFirestore in Frameworks */,
+				E9C12B3C2CBBB69C009E3057 /* FirebaseCore in Frameworks */,
+				E9C12B3A2CBBB69C009E3057 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +138,7 @@
 				E9C12AC12CBBABC3009E3057 /* LearnSpere */,
 				E9C12AD82CBBABC6009E3057 /* LearnSpereTests */,
 				E9C12AE22CBBABC6009E3057 /* LearnSpereUITests */,
+				E9C12B362CBBB68F009E3057 /* Frameworks */,
 				E9C12AC02CBBABC3009E3057 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +151,13 @@
 				E9C12ADF2CBBABC6009E3057 /* LearnSpereUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E9C12B362CBBB68F009E3057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +180,10 @@
 			);
 			name = LearnSpere;
 			packageProductDependencies = (
+				E9C12B372CBBB68F009E3057 /* FirebaseDatabase */,
+				E9C12B392CBBB69C009E3057 /* FirebaseAuth */,
+				E9C12B3B2CBBB69C009E3057 /* FirebaseCore */,
+				E9C12B3D2CBBB69C009E3057 /* FirebaseFirestore */,
 			);
 			productName = LearnSpere;
 			productReference = E9C12ABF2CBBABC3009E3057 /* LearnSpere.app */;
@@ -208,6 +267,9 @@
 			);
 			mainGroup = E9C12AB62CBBABC3009E3057;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E9C12B352CBBB5BD009E3057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E9C12AC02CBBABC3009E3057 /* Products */;
 			projectDirPath = "";
@@ -295,7 +357,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +385,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -571,6 +631,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9C12B352CBBB5BD009E3057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9C12B372CBBB68F009E3057 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9C12B352CBBB5BD009E3057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E9C12B392CBBB69C009E3057 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9C12B352CBBB5BD009E3057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E9C12B3B2CBBB69C009E3057 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9C12B352CBBB5BD009E3057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		E9C12B3D2CBBB69C009E3057 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9C12B352CBBB5BD009E3057 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9C12AB72CBBABC3009E3057 /* Project object */;
 }
